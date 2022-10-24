@@ -1,10 +1,9 @@
-import PokemonCard from "./PokemonCard"
-
+import PokemonCard from "./PokemonCard";
 
 function PokemonList() {
   return (
     <ul>
-      <PokemonCard/>
+      <PokemonCard />
     </ul>
   );
 }
