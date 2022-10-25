@@ -1,9 +1,13 @@
 import PokemonCard from "./PokemonCard";
 
-function PokemonList() {
+function PokemonList({pokemons}) {
+  const renderPoks = pokemons.map(pokemon => {
+    return <PokemonCard key={pokemon.id} pokemon={pokemon}/>
+  })
+
   return (
     <ul>
-      <PokemonCard />
+      {renderPoks}
     </ul>
   );
 }

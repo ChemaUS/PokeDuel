@@ -1,12 +1,12 @@
 import PokemonList from "./PokemonList";
-import PokemonForm from "./PokemonForm";
+import PokemonTeam from "./PokemonTeam";
 
-function PokemonPage() {
+function PokemonPage({ setPokemons, pokemons }) {
   return (
-    <>
-      <PokemonList />
-      <PokemonForm />
-    </>
+    <div>
+      <PokemonList pokemons={pokemons} />
+      <PokemonTeam />
+    </div>
   );
 }
 
