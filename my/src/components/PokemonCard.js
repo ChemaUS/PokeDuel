@@ -13,6 +13,8 @@ function PokemonCard({pokemon}) {
         <li>HP:{pokemon.hp}</li>
         <li>Attack: {pokemon.attack} </li>
         <li>Defense: {pokemon.defense}</li>
+        <li>Special attack: {pokemon["sp.attack"]} </li>
+        <li>Special defense: {pokemon["sp.defense"]}</li>
         <li>Speed: {pokemon.speed}</li>
         <li>Nature: {pokemon.nature}</li>
       </ul>
