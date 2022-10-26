@@ -1,14 +1,14 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 html:focus-within {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 
 body {
-    background-color: whitesmoke;
-    /* background-size: cover;
+  background-color: whitesmoke;
+  /* background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -36,38 +36,39 @@ h1:hover {
   }
 
 .navBar {
-    margin:1rem;
-    align-items:center;
-    
+  margin: 1rem;
+  align-items: center;
+
 }
+
 .statsDiv {
-    position: center;
-    display: flex;
-    margin: 10px;
-    text-align: center;
-    padding: 30px;
+  justify-content: center;
+  display: flex;
+  margin: 10px;
+  text-align: center;
+  padding: 30px;
 }
 
 .statsBar {
-    border: 1px solid black;
-    background: #dae5f0 no-repeat scroll 10px 5px none;
-    border-radius: 20px;
-    padding: 2px 0 0 3px;
-    height: 300px;
-    width: 500px;
-    margin-top: 8px;
-    box-shadow: inset 1px 1px 0 rgb(255 255 255 );
+  border: 1px solid black;
+  background: #dae5f0 no-repeat scroll 10px 5px none;
+  border-radius: 20px;
+  padding: 2px 0 0 3px;
+  height: 300px;
+  width: 500px;
+  margin-top: 8px;
+  box-shadow: inset 1px 1px 0 rgb(255 255 255);
 }
 
 .pokeImage {
-    border: 1px solid black;
-    background: #ECF0F3;
-    border-radius: 5px;
-    padding: 2px 0 0 3px;
-    height: 300px;
-    width: 300px;
-    margin-top: 8px;
-    box-shadow: inset 1px 1px 0 rgb(255 255 255 / 60%);
+  border: 1px solid black;
+  background: #ECF0F3;
+  border-radius: 5px;
+  padding: 2px 0 0 3px;
+  height: 300px;
+  width: 300px;
+  margin-top: 8px;
+  box-shadow: inset 1px 1px 0 rgb(255 255 255 / 60%);
 }
 
 .pokeCard {
@@ -81,7 +82,7 @@ h1:hover {
   width: calc(25% - 1rem);
   margin: 0.3rem;
   border: 4px, solid black;
-  }
+}
 
   p {
     margin: 10px;
@@ -107,10 +108,10 @@ h1:hover {
   }
 
 .navBar {
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
   button {
@@ -126,50 +127,56 @@ h1:hover {
     transform: translateY(-4px);
   }
 
-  button {
-    font-family: 'Open Sans';
-    color: #494949 !important;
-    text-transform: uppercase;
-    background: #ffffff;
-    padding: 20px;
-    border: 2px solid #494949 !important;
-    border-radius: 6px;
-    text-decoration: none;
-    display: inline-block;
-    transition: all 0.3s ease 0s;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  }
-  
-  button:hover {
-    color: black !important;
-    border-radius: 50px;
-    border-color: #494949 !important;
-    transition: all 0.6s ease 0s;
-  }
+button {
+  font-family: 'Open Sans';
+  color: #494949 !important;
+  text-transform: uppercase;
+  background: #ffffff;
+  padding: 20px;
+  border: 2px solid #494949 !important;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
 
-  .searchBar {
-    padding: 2em;
-    text-align: center;
-    border-radius: 4%;
-    margin: 2rem;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  }
-  
+button:hover {
+  color: black !important;
+  border-radius: 50px;
+  border-color: #494949 !important;
+  transition: all 0.6s ease 0s;
+}
+
+.searchBar {
+  padding: 2em;
+  text-align: center;
+  border-radius: 4%;
+  margin: 2rem;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  width: 300px;
+
+
+}
+
+#pokiSearch {
+  display: flex;
+  justify-content: center;
+}
+
 .add {
-    padding: 6px;
+  padding: 6px;
 }
 
 .box {
-    text-align: center;
+  text-align: center;
 }
 
 .pokeball {
-    position: center;
-   max-width: 5%;
-   height: auto;
-   cursor: pointer;
+  position: center;
+  max-width: 5%;
+  height: auto;
+  cursor: pointer;
 }
 
-.toTheTop {
-    
-}
+.toTheTop {}

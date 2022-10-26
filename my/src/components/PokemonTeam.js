@@ -1,12 +1,27 @@
+import React, { useState, useEffect } from "react";
 import Draggable from "react-draggable";
+import PokeTeamCard from "./PokeTeamCard";
 
-function PokemonTeam() {
+function PokemonTeam({teams, setTeams}) {
+  
+
+  useEffect(() => {
+    fetch("http://localhost:4000/PokeTeam")
+      .then((res) => res.json())
+      .then((data) => setTeams(data));
+  }, []);
+
+  const teamList = teams.map((team) => {
+    return <PokeTeamCard team={team} key={team.id} setTeams={setTeams}/>;
+  });
+
   return (
     <>
-      <h2></h2>
-      <form>
-        <label></label>
-      </form>
+      <div className="header">
+        <h1>Poké Team</h1>
+      </div>
+
+      <ul>{teamList}</ul>
       <Draggable>
         <div className="box">
             <img
