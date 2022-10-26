@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
+import { Switch, Route } from "react-router-dom"
 import Header from "./Header";
 import NavBar from "./NavBar";
-import Stats from "./Stats";
 import PokemonPage from "./PokemonPage";
 
 function App() {
@@ -16,7 +16,6 @@ function App() {
   return (
     <>
       <Header />
-      <Stats />
       <NavBar />
       <PokemonPage pokemons={pokemons} setPokemons={setPokemons} />
     </>

@@ -1,8 +1,8 @@
 import PokemonCard from "./PokemonCard";
 
-function PokemonList({pokemons}) {
+function PokemonList({pokemons, setTeams, teams}) {
   const renderPoks = pokemons.map(pokemon => {
-    return <PokemonCard key={pokemon.id} pokemon={pokemon}/>
+    return <PokemonCard key={pokemon.id} pokemon={pokemon} setTeams={setTeams} teams={teams}/>
   })
 
   return (

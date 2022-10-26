@@ -2,7 +2,29 @@
 
 import Draggable from "react-draggable";
 
-function PokemonCard({ pokemon }) {
+function PokemonCard({ pokemon, setTeams, teams }) {
+  function handleSubmit(e) {
+    e.preventDefault();
+    fetch(`http://localhost:4000/PokeTeam`, {
+      method: 'POST',
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+            name: pokemon.name,
+            image: pokemon.image,
+            nature: pokemon.nature,
+            hp: pokemon.hp,
+            attack: pokemon.attack,
+            defense: pokemon.defense,
+            spattack: pokemon['sp.attack'],
+            spdefense: pokemon['sp.defense'],
+            speed: pokemon.speed,
+      })
+    })
+    .then(r => r.json())
+    .then(newObj => setTeams([...teams, newObj ]))
+  }
   return (
     <Draggable>
       <li className="pokeCard">
@@ -15,7 +37,7 @@ function PokemonCard({ pokemon }) {
         <p>Special defense: {pokemon["sp.defense"]}</p>
         <p>Speed: {pokemon.speed}</p>
         <p>Nature: {pokemon.nature}</p>
-        <button className="add">➕ Add to PokéTeam</button>
+        <button className="add" onClick={handleSubmit} >➕ Add to PokéTeam</button>
       </li>
     </Draggable>
   );
