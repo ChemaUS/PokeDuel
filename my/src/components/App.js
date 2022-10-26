@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
+import { Switch, Route } from "react-router-dom"
 import Header from "./Header";
 
-import Stats from "./Stats";
 import PokemonPage from "./PokemonPage";
 
 function App() {
@@ -20,7 +20,6 @@ function App() {
   return (
     <>
       <Header pokemons={pokemons} setPokemons={setPokemons} />
-      <Stats />
 
       <PokemonPage pokemons={searchName} setPokemons={setPokemons} setPokiSearch={setPokiSearch}
         pokiSearch={pokiSearch} />

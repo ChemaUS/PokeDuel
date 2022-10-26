@@ -8,7 +8,7 @@ function NavBar() {
 
 
       <span>
-        <button className="Poke">Poké</button>
+        <button className="Poke">Poké Team</button>
       </span>
     </div>
   );
