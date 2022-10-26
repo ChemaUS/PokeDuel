@@ -440,5 +440,19 @@
             "speed": 122,
             "EVs": 0
         }
+    ],
+    "PokeTeam": [
+        {
+            "id": 1,
+            "name": "Garchomp",
+            "image": "https://img.pokemondb.net/sprites/x-y/normal/garchomp-f.png",
+            "nature": "Jolly",
+            "hp": 183,
+            "attack": 150,
+            "defense": 115,
+            "sp.attack": 100,
+            "sp.defense": 105,
+            "speed": 122
+        }
     ]
 }

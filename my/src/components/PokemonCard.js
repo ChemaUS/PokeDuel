@@ -1,3 +1,5 @@
+// import Draggable from "react-draggable";
+
 import Draggable from "react-draggable";
 
 function PokemonCard({ pokemon }) {
@@ -20,3 +22,4 @@ function PokemonCard({ pokemon }) {
 }
 
 export default PokemonCard;
+
