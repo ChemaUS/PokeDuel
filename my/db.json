@@ -513,6 +513,18 @@
       "spdefense": 90,
       "speed": 121,
       "id": 6
+    },
+    {
+      "name": "Salamance",
+      "image": "https://img.pokemondb.net/sprites/x-y/normal/salamence.png",
+      "nature": "Jolly",
+      "hp": 170,
+      "attack": 155,
+      "defense": 100,
+      "spattack": 117,
+      "spdefense": 100,
+      "speed": 132,
+      "id": 7
     }
   ]
 }
