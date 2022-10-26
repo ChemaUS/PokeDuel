@@ -1,15 +1,19 @@
+import { Link } from "react-router-dom";
+
 function NavBar() {
   return (
     <div className="navBar">
-      <span>
-        <button className="View">Viéw</button>
-      </span>
-
-
-
-      <span>
-        <button className="Poke">Poké Team</button>
-      </span>
+      <nav>
+        <Link className="searchBar" to="/">
+          Poké
+        </Link>
+        <Link className="searchBar" to="/PokeTeam">
+          Poké Team
+        </Link>
+        <Link className="searchBar" exact to="/pokeDuel">
+          Poké Duel
+        </Link>
+      </nav>
     </div>
   );
 }
