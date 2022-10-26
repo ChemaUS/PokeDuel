@@ -1,5 +1,9 @@
 function Header() {
-  return <h1>Pokemon Cards</h1>;
+  return (
+    <div className="header">
+      <h1>Poké Duels</h1>
+    </div>
+  );
 }
 
 export default Header;
