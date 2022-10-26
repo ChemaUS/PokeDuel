@@ -525,6 +525,42 @@
       "spdefense": 100,
       "speed": 132,
       "id": 7
+    },
+    {
+      "name": "Garchomp",
+      "image": "https://img.pokemondb.net/sprites/x-y/normal/garchomp-f.png",
+      "nature": "Jolly",
+      "hp": 183,
+      "attack": 150,
+      "defense": 115,
+      "spattack": 100,
+      "spdefense": 105,
+      "speed": 122,
+      "id": 8
+    },
+    {
+      "name": "Togekiss",
+      "image": "https://img.pokemondb.net/sprites/x-y/normal/togekiss.png",
+      "nature": "Jolly",
+      "hp": 160,
+      "attack": 70,
+      "defense": 115,
+      "spattack": 140,
+      "spdefense": 135,
+      "speed": 100,
+      "id": 9
+    },
+    {
+      "name": "Garchomp",
+      "image": "https://img.pokemondb.net/sprites/x-y/normal/garchomp-f.png",
+      "nature": "Jolly",
+      "hp": 183,
+      "attack": 150,
+      "defense": 115,
+      "spattack": 100,
+      "spdefense": 105,
+      "speed": 122,
+      "id": 10
     }
   ]
 }
