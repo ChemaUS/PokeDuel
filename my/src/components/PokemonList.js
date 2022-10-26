@@ -1,14 +1,21 @@
 import PokemonCard from "./PokemonCard";
+import NameSearch from "./NameSearch";
 
-function PokemonList({pokemons}) {
+function PokemonList({ pokemons, setPokiSearch, pokiSearch }) {
   const renderPoks = pokemons.map(pokemon => {
-    return <PokemonCard key={pokemon.id} pokemon={pokemon}/>
+    return <PokemonCard key={pokemon.id} pokemon={pokemon} />
+
   })
 
   return (
-    <ul>
-      {renderPoks}
-    </ul>
+    <>
+      < ul >
+        <NameSearch pokiSearch={pokiSearch}
+          setPokiSearch={setPokiSearch} pokemons={pokemons} />
+        {renderPoks}
+      </ul >
+    </>
+
   );
 }
 
