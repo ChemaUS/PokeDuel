@@ -5,16 +5,14 @@ function PokemonTeam() {
     <>
       <h2></h2>
       <form>
-        <label>Pokemon name</label>
+        <label></label>
       </form>
       <Draggable>
         <div className="box">
-          <div>
             <img
               className="pokeball"
               src="https://i.pinimg.com/originals/32/eb/23/32eb230b326ee3c76e64f619a06f6ebb.png"
             />
-          </div>
         </div>
       </Draggable>
       <div className="toTheTop">
