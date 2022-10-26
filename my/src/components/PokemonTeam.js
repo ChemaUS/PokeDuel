@@ -24,12 +24,10 @@ function PokemonTeam({teams, setTeams}) {
       <ul>{teamList}</ul>
       <Draggable>
         <div className="box">
-          <div>
             <img
               className="pokeball"
               src="https://i.pinimg.com/originals/32/eb/23/32eb230b326ee3c76e64f619a06f6ebb.png"
             />
-          </div>
         </div>
       </Draggable>
       <div className="toTheTop">

@@ -9,6 +9,13 @@ function Header({ setPokiSearch, pokiSearch, pokemons }) {
       <h1>Poké Duels</h1>
       <NavBar pokemons={pokemons} setPokiSearch={setPokiSearch}
         pokiSearch={pokiSearch} />
+      <div>
+        <p>Team</p>
+        <a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon" target="_blank">
+          <p>Pokémon</p>
+        </a>
+        <p>Duel</p>
+      </div>
     </div>
   );
 }
