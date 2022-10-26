@@ -7,11 +7,7 @@ function PokemonTeam() {
       <form>
         <label>Pokemon name</label>
       </form>
-      <Draggable>
-        <div className="box">
-          <div>Move me around!</div>
-        </div>
-      </Draggable>
+
     </>
   );
 }

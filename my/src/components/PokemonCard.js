@@ -1,15 +1,11 @@
-import Draggable from "react-draggable";
+// import Draggable from "react-draggable";
 
-function PokemonCard({pokemon}) {
+function PokemonCard({ pokemon }) {
   return (
-    <Draggable>
     <div>
-      <h3>{pokemon.name}</h3>
-      <img
-        src={pokemon.image}
-        alt={pokemon.name}
-        />
       <ul>
+        <h3>{pokemon.name}</h3>
+        <img src={pokemon.image} alt={pokemon.name} />
         <li>HP:{pokemon.hp}</li>
         <li>Attack: {pokemon.attack} </li>
         <li>Defense: {pokemon.defense}</li>
@@ -17,10 +13,9 @@ function PokemonCard({pokemon}) {
         <li>Special defense: {pokemon["sp.defense"]}</li>
         <li>Speed: {pokemon.speed}</li>
         <li>Nature: {pokemon.nature}</li>
-      </ul>
         <button>Add to MyPokeTeam</button>
+      </ul>
     </div>
-      </Draggable>
   );
 }
 
