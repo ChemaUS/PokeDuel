@@ -10,7 +10,7 @@ function NavBar() {
         <Link className="searchBar" to="/PokeTeam">
           Poké Team
         </Link>
-        <Link className="searchBar" exact to="/pokeDuel">
+        <Link className="searchBar" to="/pokeDuel">
           Poké Duel
         </Link>
       </nav>

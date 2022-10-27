@@ -501,6 +501,18 @@
       "spdefense": 115,
       "speed": 154,
       "id": 12
+    },
+    {
+      "name": "Dugtrio",
+      "image": "https://img.pokemondb.net/sprites/x-y/normal/dugtrio.png",
+      "nature": "Adamant",
+      "hp": 110,
+      "attack": 132,
+      "defense": 70,
+      "spattack": 63,
+      "spdefense": 90,
+      "speed": 140,
+      "id": 13
     }
   ]
 }
