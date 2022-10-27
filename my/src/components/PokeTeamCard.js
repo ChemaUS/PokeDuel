@@ -1,6 +1,13 @@
-function PokeTeamCard({ team }) {
+function PokeTeamCard({ team, onDelete }) {
+  function handleDelete() {
+    fetch(`http://localhost:4000/PokeTeam/${team.id}`, {
+      method: "DELETE",
+    })
+      .then((r) => r.json())
+      .then(() => onDelete(team));
+  }
   return (
-    <div >
+    <div>
       <div className="statsDiv">
         <div className="pokeImage">
           <img src={team.image} alt={team.name} />
@@ -18,7 +25,10 @@ function PokeTeamCard({ team }) {
         </div>
       </div>
       <button className="add"> Edit</button>
-      <button className="add"> Delete</button>
+      <button className="add" onClick={handleDelete}>
+        {" "}
+        Delete
+      </button>
     </div>
   );
 }

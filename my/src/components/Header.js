@@ -1,7 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar";
-
-function Header({ setPokiSearch, pokiSearch, pokemons }) {
+function Header({ setPokiSearch, pokiSearch, pokemons, setPage }) {
   //const renderImage = pokemons.map(pokemonImage => {
   //return <Roster key={pokemonImage.id} pokemonImage={pokemonImage} />
   //})
@@ -32,7 +31,7 @@ function Header({ setPokiSearch, pokiSearch, pokemons }) {
         <p>Duel</p>
       </div>
       <NavBar pokemons={pokemons} setPokiSearch={setPokiSearch}
-        pokiSearch={pokiSearch} />
+        pokiSearch={pokiSearch} onChangePage={setPage}/>
     </div>
   );
 }
