@@ -443,76 +443,16 @@
   ],
   "PokeTeam": [
     {
-      "name": "Infernape",
-      "image": "https://img.pokemondb.net/sprites/x-y/normal/infernape.png",
-      "nature": "Jolly",
-      "hp": 151,
-      "attack": 124,
-      "defense": 91,
-      "spattack": 111,
-      "spdefense": 91,
-      "speed": 140,
-      "id": 8
-    },
-    {
-      "name": "Roserade",
-      "image": "https://img.pokemondb.net/sprites/x-y/normal/roserade-f.png",
-      "nature": "Timid",
-      "hp": 135,
-      "attack": 81,
-      "defense": 85,
-      "spattack": 145,
-      "spdefense": 125,
-      "speed": 121,
-      "id": 9
-    },
-    {
-      "name": "Lucario",
-      "image": "https://img.pokemondb.net/sprites/x-y/normal/lucario.png",
-      "nature": "Jolly",
-      "hp": 145,
-      "attack": 130,
-      "defense": 90,
-      "spattack": 121,
-      "spdefense": 90,
-      "speed": 121,
-      "id": 10
-    },
-    {
-      "name": "Charizard",
-      "image": "https://img.pokemondb.net/sprites/x-y/normal/charizard.png",
+      "name": "Gengar",
+      "image": "https://img.pokemondb.net/sprites/x-y/normal/gengar.png",
       "nature": "Modest",
-      "hp": 153,
-      "attack": 84,
-      "defense": 98,
-      "spattack": 141,
-      "spdefense": 105,
-      "speed": 120,
-      "id": 11
-    },
-    {
-      "name": "Alakazam",
-      "image": "https://img.pokemondb.net/sprites/x-y/normal/alakazam-f.png",
-      "nature": "Timid",
-      "hp": 130,
-      "attack": 49,
-      "defense": 65,
-      "spattack": 155,
-      "spdefense": 115,
-      "speed": 154,
-      "id": 12
-    },
-    {
-      "name": "Dugtrio",
-      "image": "https://img.pokemondb.net/sprites/x-y/normal/dugtrio.png",
-      "nature": "Adamant",
-      "hp": 110,
-      "attack": 132,
-      "defense": 70,
-      "spattack": 63,
-      "spdefense": 90,
-      "speed": 140,
-      "id": 13
+      "hp": 135,
+      "attack": 76,
+      "defense": 80,
+      "spattack": 165,
+      "spdefense": 95,
+      "speed": 130,
+      "id": 1
     }
   ]
 }
