@@ -1,14 +1,16 @@
+import React, {useState} from 'react';
+
 function NavBar() {
+
+const [show, setShow] = useState("")
+
   return (
     <div className="navBar">
       <span>
-        <button className="View">Viéw</button>
+        <button className="View">View</button>
       </span>
-
-
-
       <span>
-        <button className="Poke">Poké Team</button>
+        <button className="Poke">Team</button>
       </span>
     </div>
   );
