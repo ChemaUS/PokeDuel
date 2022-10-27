@@ -26,7 +26,7 @@ function PokeDuel({ teams, pokemons }) {
     <div className="header">
       <h1>Poké Duel</h1>
       <div>
-        <h4>Choose Poké </h4>
+        <h4>Choose form Poké Team </h4>
         <select>{options}</select>
       </div>
       <div>

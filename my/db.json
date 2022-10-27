@@ -441,5 +441,18 @@
       "EVs": 0
     }
   ],
-  "PokeTeam": []
+  "PokeTeam": [
+    {
+      "name": "Gengar",
+      "image": "https://img.pokemondb.net/sprites/x-y/normal/gengar.png",
+      "nature": "Modest",
+      "hp": 135,
+      "attack": 76,
+      "defense": 80,
+      "spattack": 165,
+      "spdefense": 95,
+      "speed": 130,
+      "id": 1
+    }
+  ]
 }

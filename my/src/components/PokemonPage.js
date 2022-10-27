@@ -38,7 +38,7 @@ function PokemonPage({ pokemons, setPokiSearch, pokiSearch }) {
             onDelete={updatedArray}
           />
         </Route>
-        <Route exact patch="/pokeDuel">
+        <Route patch="/pokeDuel">
           <PokeDuel teams={teams} pokemons={pokemons} />
         </Route>
       </Switch>
