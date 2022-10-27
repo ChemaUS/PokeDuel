@@ -7,16 +7,14 @@ function PokemonList({ pokemons, setPokiSearch, pokiSearch , setTeams, teams}) {
 
   })
 
-  return (
-    <>
-    <h1>Poké</h1>
-      < ul >
+  
+   return (
+     
+        <div className="searchCards">
         <NameSearch pokiSearch={pokiSearch}
           setPokiSearch={setPokiSearch} pokemons={pokemons} />
         {renderPoks}
-      </ul >
-    </>
-
+       </div> 
   );
 }
 

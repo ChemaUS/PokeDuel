@@ -31,7 +31,7 @@ function PokeDuel({ teams, pokemons }) {
       </div>
       <div>
         <h4>Random Opponent </h4>
-        <img src={opponent.image} />
+        <img src={opponent.image} alt="pokemon"/>
         <p>HP:{opponent.hp}</p>
         <p>Attack: {opponent.attack}</p>
         <p>Defense: {opponent.defense}</p>

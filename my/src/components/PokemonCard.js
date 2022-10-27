@@ -1,6 +1,3 @@
-// import Draggable from "react-draggable";
-
-import Draggable from "react-draggable";
 
 function PokemonCard({ pokemon, setTeams, teams }) {
   function handleSubmit(e) {
@@ -26,7 +23,6 @@ function PokemonCard({ pokemon, setTeams, teams }) {
     .then(newObj => setTeams([...teams, newObj ]))
   }
   return (
-    <Draggable>
       <li className="pokeCard">
         <h3>{pokemon.name}</h3>
         <img src={pokemon.image} alt={pokemon.name} />
@@ -39,7 +35,6 @@ function PokemonCard({ pokemon, setTeams, teams }) {
         <p>Nature: {pokemon.nature}</p>
         <button className="add" onClick={handleSubmit} >➕ Add to PokéTeam</button>
       </li>
-    </Draggable>
   );
 }
 
