@@ -1,3 +1,4 @@
+import React, { useState } from "react"
 function PokeTeamCard({ team, onDelete }) {
   const [hpEvs, setHpEvs] = useState('')
   const [atkEvs, setAtkEvs] = useState('')
