@@ -16,7 +16,7 @@ function PokemonList({ pokemons, setPokiSearch, pokiSearch, setTeams, teams }) {
   return (
     <div className="searchCards">
       <div className="header">
-        <h1>Poké</h1>
+        <h1>Pokémon</h1>
       </div>
       <NameSearch
         pokiSearch={pokiSearch}

@@ -7,7 +7,6 @@ import PokemonPage from "./PokemonPage";
 function App() {
   const [pokemons, setPokemons] = useState([]);
   const [pokiSearch, setPokiSearch] = useState("");
- 
 
   useEffect(() => {
     fetch("http://localhost:4000/pokemon")
