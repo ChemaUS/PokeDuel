@@ -33,10 +33,13 @@ function Header({ setPokiSearch, pokiSearch, pokemons }) {
           <span></span>
         </div>
       </div>
-      <div>
-      </div >
-      <NavBar className="button" pokemons={pokemons} setPokiSearch={setPokiSearch}
-        pokiSearch={pokiSearch} onChangePage={setPage}/>
+      <div></div>
+      <NavBar
+        className="button"
+        pokemons={pokemons}
+        setPokiSearch={setPokiSearch}
+        pokiSearch={pokiSearch}
+      />
     </div>
   );
 }
