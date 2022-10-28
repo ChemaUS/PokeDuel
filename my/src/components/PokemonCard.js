@@ -13,7 +13,7 @@ function PokemonCard({ pokemon, setTeams, teams }) {
             nature: pokemon.nature,
             hp: pokemon.hp,
             attack: pokemon.attack,
-            defense: pokemon.defense,
+            defense: pokemon.defense, 
             spattack: pokemon['sp.attack'],
             spdefense: pokemon['sp.defense'],
             speed: pokemon.speed,
