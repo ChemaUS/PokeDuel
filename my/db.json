@@ -441,54 +441,5 @@
       "EVs": 0
     }
   ],
-  "PokeTeam": [
-    {
-      "name": "Milotic",
-      "image": "https://img.pokemondb.net/sprites/x-y/normal/milotic-f.png",
-      "nature": "Bold",
-      "hp": 170,
-      "attack": 72,
-      "defense": 108,
-      "spattack": 120,
-      "spdefense": 145,
-      "speed": 101,
-      "id": 4
-    },
-    {
-      "name": "Medicham",
-      "image": "https://img.pokemondb.net/sprites/x-y/normal/medicham-f.png",
-      "nature": "Jolly",
-      "hp": 170,
-      "attack": 155,
-      "defense": 100,
-      "spattack": 117,
-      "spdefense": 100,
-      "speed": 132,
-      "id": 5
-    },
-    {
-      "name": "Feraligatr",
-      "image": "https://img.pokemondb.net/sprites/x-y/normal/feraligatr.png",
-      "nature": "Adamant",
-      "hp": 160,
-      "attack": 137,
-      "defense": 120,
-      "spattack": 89,
-      "spdefense": 103,
-      "speed": 98,
-      "id": 6
-    },
-    {
-      "name": "Tyranitar",
-      "image": "https://img.pokemondb.net/sprites/x-y/normal/tyranitar.png",
-      "nature": "Adamant",
-      "hp": 175,
-      "attack": 169,
-      "defense": 130,
-      "spattack": 103,
-      "spdefense": 120,
-      "speed": 81,
-      "id": 7
-    }
-  ]
+  "PokeTeam": []
 }
