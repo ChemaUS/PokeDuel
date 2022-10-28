@@ -443,6 +443,30 @@
   ],
   "PokeTeam": [
     {
+      "name": "Alakazam",
+      "image": "https://img.pokemondb.net/sprites/x-y/normal/alakazam-f.png",
+      "nature": "Timid",
+      "hp": 130,
+      "attack": 49,
+      "defense": 65,
+      "spattack": 155,
+      "spdefense": 115,
+      "speed": 154,
+      "id": 3
+    },
+    {
+      "name": "Dugtrio",
+      "image": "https://img.pokemondb.net/sprites/x-y/normal/dugtrio.png",
+      "nature": "Adamant",
+      "hp": 110,
+      "attack": 132,
+      "defense": 70,
+      "spattack": 63,
+      "spdefense": 90,
+      "speed": 140,
+      "id": 4
+    },
+    {
       "name": "Gengar",
       "image": "https://img.pokemondb.net/sprites/x-y/normal/gengar.png",
       "nature": "Modest",
@@ -452,7 +476,19 @@
       "spattack": 165,
       "spdefense": 95,
       "speed": 130,
-      "id": 1
+      "id": 5
+    },
+    {
+      "name": "Porygon2",
+      "image": "https://img.pokemondb.net/sprites/x-y/normal/porygon2.png",
+      "nature": "Calm",
+      "hp": 160,
+      "attack": 90,
+      "defense": 110,
+      "spattack": 125,
+      "spdefense": 126,
+      "speed": 80,
+      "id": 6
     }
   ]
 }

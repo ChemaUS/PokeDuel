@@ -25,22 +25,27 @@ function PokeDuel({ teams, pokemons }) {
   return (
     <div className="header">
       <h1>Poké Duel</h1>
-      <div>
-        <h4>Choose form Poké Team </h4>
+      <div id="choose">
+        <h2>Choose form Poké Team </h2>
         <select>{options}</select>
       </div>
       <div>
+      <li className="pokeCard">
         <h4>Random Opponent </h4>
-        <img src={opponent.image} alt="pokemon"/>
-        <p>HP:{opponent.hp}</p>
-        <p>Attack: {opponent.attack}</p>
-        <p>Defense: {opponent.defense}</p>
-        <p>Special attack: {opponent["sp.attack"]}</p>
-        <p>Special defense: {opponent["sp.defense"]}</p>
-        <p>Speed: {opponent.speed}</p>
-        <p>Nature: {opponent.nature}</p>
+        <h2>{opponent.name}</h2>
+          <img src={opponent.image} alt="pokemon"/>
+          <p>HP:{opponent.hp}</p>
+          <p>Attack: {opponent.attack}</p>
+          <p>Defense: {opponent.defense}</p>
+          <p>Special attack: {opponent["sp.attack"]}</p>
+          <p>Special defense: {opponent["sp.defense"]}</p>
+          <p>Speed: {opponent.speed}</p>
+          <p>Nature: {opponent.nature}</p>
+        </li>
+        </div>
+      <div id="duelButton" >
         <button onClick={handleClick}>Find Opponent</button>
-      </div>
+        </div>
     </div>
   );
 }
