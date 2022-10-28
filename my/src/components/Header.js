@@ -15,31 +15,49 @@ function Header({ setPokiSearch, pokiSearch, pokemons }) {
               src="https://i.pinimg.com/originals/32/eb/23/32eb230b326ee3c76e64f619a06f6ebb.png"
             />
           </span>
+          <span>
           <img
             id="gotta"
             src="https://i.pinimg.com/originals/32/eb/23/32eb230b326ee3c76e64f619a06f6ebb.png"
           />
-          <span></span>
+          </span>
           <span>
             <img
               id="gotta"
               src="https://i.pinimg.com/originals/32/eb/23/32eb230b326ee3c76e64f619a06f6ebb.png"
             />
           </span>
+          <span>
           <img
             id="gotta"
             src="https://i.pinimg.com/originals/32/eb/23/32eb230b326ee3c76e64f619a06f6ebb.png"
           />
-          <span></span>
+          </span>
+          <span>
+            <img
+              id="gotta"
+              src="https://i.pinimg.com/originals/32/eb/23/32eb230b326ee3c76e64f619a06f6ebb.png"
+            />
+          </span>
+          <span>
+          <img
+            id="gotta"
+            src="https://i.pinimg.com/originals/32/eb/23/32eb230b326ee3c76e64f619a06f6ebb.png"
+          />
+          </span>
+          <span>
+            <img
+              id="gotta"
+              src="https://i.pinimg.com/originals/32/eb/23/32eb230b326ee3c76e64f619a06f6ebb.png"
+            />
+          </span>
+          
         </div>
       </div>
-      <div></div>
-      <NavBar
-        className="button"
-        pokemons={pokemons}
-        setPokiSearch={setPokiSearch}
-        pokiSearch={pokiSearch}
-      />
+      <div>
+      </div >
+      <NavBar className="button" id="navButtons" pokemons={pokemons} setPokiSearch={setPokiSearch}
+        pokiSearch={pokiSearch} />
     </div>
   );
 }
