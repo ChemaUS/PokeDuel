@@ -443,40 +443,52 @@
   ],
   "PokeTeam": [
     {
-      "name": "Porygon2",
-      "image": "https://img.pokemondb.net/sprites/x-y/normal/porygon2.png",
-      "nature": "Calm",
-      "hp": 160,
-      "attack": 90,
-      "defense": 110,
-      "spattack": 125,
-      "spdefense": 126,
-      "speed": 80,
-      "id": 1
+      "name": "Milotic",
+      "image": "https://img.pokemondb.net/sprites/x-y/normal/milotic-f.png",
+      "nature": "Bold",
+      "hp": 170,
+      "attack": 72,
+      "defense": 108,
+      "spattack": 120,
+      "spdefense": 145,
+      "speed": 101,
+      "id": 4
     },
     {
-      "name": "Lucario",
-      "image": "https://img.pokemondb.net/sprites/x-y/normal/lucario.png",
+      "name": "Medicham",
+      "image": "https://img.pokemondb.net/sprites/x-y/normal/medicham-f.png",
       "nature": "Jolly",
-      "hp": 145,
-      "attack": 130,
-      "defense": 90,
-      "spattack": 121,
-      "spdefense": 90,
-      "speed": 121,
-      "id": 2
+      "hp": 170,
+      "attack": 155,
+      "defense": 100,
+      "spattack": 117,
+      "spdefense": 100,
+      "speed": 132,
+      "id": 5
     },
     {
-      "name": "Togekiss",
-      "image": "https://img.pokemondb.net/sprites/x-y/normal/togekiss.png",
-      "nature": "Jolly",
+      "name": "Feraligatr",
+      "image": "https://img.pokemondb.net/sprites/x-y/normal/feraligatr.png",
+      "nature": "Adamant",
       "hp": 160,
-      "attack": 70,
-      "defense": 115,
-      "spattack": 140,
-      "spdefense": 135,
-      "speed": 100,
-      "id": 3
+      "attack": 137,
+      "defense": 120,
+      "spattack": 89,
+      "spdefense": 103,
+      "speed": 98,
+      "id": 6
+    },
+    {
+      "name": "Tyranitar",
+      "image": "https://img.pokemondb.net/sprites/x-y/normal/tyranitar.png",
+      "nature": "Adamant",
+      "hp": 175,
+      "attack": 169,
+      "defense": 130,
+      "spattack": 103,
+      "spdefense": 120,
+      "speed": 81,
+      "id": 7
     }
   ]
 }
