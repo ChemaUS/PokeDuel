@@ -7,7 +7,7 @@ import PokemonPage from "./PokemonPage";
 function App() {
   const [pokemons, setPokemons] = useState([]);
   const [pokiSearch, setPokiSearch] = useState("");
-  const [page, setPage] = useState("/");
+ 
 
   useEffect(() => {
     fetch("http://localhost:4000/pokemon")
@@ -19,7 +19,7 @@ function App() {
   });
   return (
     <>
-      <Header pokemons={pokemons} setPokemons={setPokemons} setPage={setPage} />
+      <Header pokemons={pokemons} setPokemons={setPokemons} />
       <PokemonPage
         pokemons={searchName}
         setPokemons={setPokemons}
