@@ -443,46 +443,6 @@
   ],
   "PokeTeam": [
     {
-<<<<<<< HEAD
-      "name": "Alakazam",
-      "image": "https://img.pokemondb.net/sprites/x-y/normal/alakazam-f.png",
-      "nature": "Timid",
-      "hp": 130,
-      "attack": 49,
-      "defense": 65,
-      "spattack": 155,
-      "spdefense": 115,
-      "speed": 154,
-      "id": 3
-    },
-    {
-=======
->>>>>>> d178b28d1187007dfd0c626bc2998ebe9ea685fe
-      "name": "Dugtrio",
-      "image": "https://img.pokemondb.net/sprites/x-y/normal/dugtrio.png",
-      "nature": "Adamant",
-      "hp": 110,
-      "attack": 132,
-      "defense": 70,
-      "spattack": 63,
-      "spdefense": 90,
-      "speed": 140,
-<<<<<<< HEAD
-      "id": 4
-    },
-    {
-      "name": "Gengar",
-      "image": "https://img.pokemondb.net/sprites/x-y/normal/gengar.png",
-      "nature": "Modest",
-      "hp": 135,
-      "attack": 76,
-      "defense": 80,
-      "spattack": 165,
-      "spdefense": 95,
-      "speed": 130,
-      "id": 5
-    },
-    {
       "name": "Porygon2",
       "image": "https://img.pokemondb.net/sprites/x-y/normal/porygon2.png",
       "nature": "Calm",
@@ -492,94 +452,31 @@
       "spattack": 125,
       "spdefense": 126,
       "speed": 80,
-      "id": 6
-=======
-      "id": 3
+      "id": 1
     },
     {
-      "name": "Milotic",
-      "image": "https://img.pokemondb.net/sprites/x-y/normal/milotic-f.png",
-      "nature": "Bold",
-      "hp": 170,
-      "attack": 72,
-      "defense": 108,
-      "spattack": 120,
-      "spdefense": 145,
-      "speed": 101,
-      "id": 4
-    },
-    {
-      "name": "Medicham",
-      "image": "https://img.pokemondb.net/sprites/x-y/normal/medicham-f.png",
+      "name": "Lucario",
+      "image": "https://img.pokemondb.net/sprites/x-y/normal/lucario.png",
       "nature": "Jolly",
-      "hp": 170,
-      "attack": 155,
-      "defense": 100,
-      "spattack": 117,
-      "spdefense": 100,
-      "speed": 132,
-      "id": 5
-    },
-    {
-      "name": "Feraligatr",
-      "image": "https://img.pokemondb.net/sprites/x-y/normal/feraligatr.png",
-      "nature": "Adamant",
-      "hp": 160,
-      "attack": 137,
-      "defense": 120,
-      "spattack": 89,
-      "spdefense": 103,
-      "speed": 98,
-      "id": 6
-    },
-    {
-      "name": "Tyranitar",
-      "image": "https://img.pokemondb.net/sprites/x-y/normal/tyranitar.png",
-      "nature": "Adamant",
-      "hp": 175,
-      "attack": 169,
-      "defense": 130,
-      "spattack": 103,
-      "spdefense": 120,
-      "speed": 81,
-      "id": 7
-    },
-    {
-      "name": "Scizor",
-      "image": "https://img.pokemondb.net/sprites/x-y/normal/scizor-f.png",
-      "nature": "Adamant",
       "hp": 145,
-      "attack": 165,
-      "defense": 120,
-      "spattack": 67,
-      "spdefense": 100,
-      "speed": 85,
-      "id": 8
+      "attack": 130,
+      "defense": 90,
+      "spattack": 121,
+      "spdefense": 90,
+      "speed": 121,
+      "id": 2
     },
     {
-      "name": "Feraligatr",
-      "image": "https://img.pokemondb.net/sprites/x-y/normal/feraligatr.png",
-      "nature": "Adamant",
+      "name": "Togekiss",
+      "image": "https://img.pokemondb.net/sprites/x-y/normal/togekiss.png",
+      "nature": "Jolly",
       "hp": 160,
-      "attack": 137,
-      "defense": 120,
-      "spattack": 89,
-      "spdefense": 103,
-      "speed": 98,
-      "id": 9
-    },
-    {
-      "name": "Charizard",
-      "image": "https://img.pokemondb.net/sprites/x-y/normal/charizard.png",
-      "nature": "Modest",
-      "hp": 153,
-      "attack": 84,
-      "defense": 98,
-      "spattack": 141,
-      "spdefense": 105,
-      "speed": 120,
-      "id": 10
->>>>>>> d178b28d1187007dfd0c626bc2998ebe9ea685fe
+      "attack": 70,
+      "defense": 115,
+      "spattack": 140,
+      "spdefense": 135,
+      "speed": 100,
+      "id": 3
     }
   ]
 }

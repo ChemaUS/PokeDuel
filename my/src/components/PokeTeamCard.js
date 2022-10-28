@@ -16,12 +16,23 @@ function PokeTeamCard({ team, onDelete }) {
   return (
     <div>
       <div className="statsDiv">
+        
         <div className="pokeImage">
+        <h2>{team.name}</h2>
           <img src={team.image} alt={team.name} />
-          <h3>{team.name}</h3>
+          <div className="teamButtons">
+      <button className="add"> Edit</button>
+      <button className="add" onClick={handleDelete}>
+        {" "}
+        Delete
+      </button>
+      </div>
         </div>
+
         <div className="statsBar">
           Pokémon Stats
+          
+          <div class="statsCard">
           <p>HP:{team.hp}
             <input type="number" id="ev-hp-number" min="0" max="252" step="4"
               value={hpEvs} onChange={e => setHpEvs(e.target.value)}>
@@ -65,14 +76,10 @@ function PokeTeamCard({ team, onDelete }) {
             <input type="range" id="ev-hp-range" min="0" max="252" step="4" value={speedEvs} onChange={e => setSpeedEvs(e.target.value)}>
             </input>
           </p>
+          </div>
 
         </div>
       </div>
-      <button className="add"> Edit</button>
-      <button className="add" onClick={handleDelete}>
-        {" "}
-        Delete
-      </button>
     </div>
   );
 }
