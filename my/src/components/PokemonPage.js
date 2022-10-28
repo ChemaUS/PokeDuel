@@ -60,7 +60,6 @@ function PokemonPage({ pokemons, setPokiSearch, pokiSearch }) {
         </a>
       </div>
     </div>
-    
   );
 }
 

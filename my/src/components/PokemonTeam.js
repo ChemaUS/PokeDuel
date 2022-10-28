@@ -1,9 +1,6 @@
-
 import PokeTeamCard from "./PokeTeamCard";
 
 function PokemonTeam({ teams, setTeams, onDelete }) {
-
-
   const teamList = teams.map((team) => {
     return (
       <PokeTeamCard
@@ -23,7 +20,6 @@ function PokemonTeam({ teams, setTeams, onDelete }) {
       </div>
 
       <ul>{teamList}</ul>
-      
     </>
   );
 }
