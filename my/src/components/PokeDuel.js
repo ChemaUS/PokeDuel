@@ -52,12 +52,13 @@ function PokeDuel({ teams, pokemons }) {
   return (
     <div className="header">
       <h1>Poké Duel</h1>
-      <div>
-        <h4>Choose form Poké Team </h4>
+      <div id="choose">
+        <h2>Choose form Poké Team </h2>
         <select onChange={handleChange} >{options}</select>
         <div></div>
       </div>
       <div>
+      <li className="pokeCard">
         <h4>Random Opponent </h4>
         <img src={opponent.image} alt={opponent.name}/>
         <p>HP:{opponent.hp}</p>
@@ -67,8 +68,11 @@ function PokeDuel({ teams, pokemons }) {
         <p>Special defense: {opponent["sp.defense"]}</p>
         <p>Speed: {opponent.speed}</p>
         <p>Nature: {opponent.nature}</p>
+        </li>
+        <div id="duelButton" >
         <button onClick={handleClick}>Find Opponent</button>
-      </div>
+        </div>
+        </div>
     </div>
   );
 }

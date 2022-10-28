@@ -6,6 +6,7 @@ function Header({ setPokiSearch, pokiSearch, pokemons }) {
   //})
   return (
     <div className="header">
+      <h1>Poké Poke</h1>
       <div id="scroll-container">
         <div id="scroll-text">
           <span>
@@ -32,12 +33,10 @@ function Header({ setPokiSearch, pokiSearch, pokemons }) {
           <span></span>
         </div>
       </div>
-
-      <NavBar
-        pokemons={pokemons}
-        setPokiSearch={setPokiSearch}
-        pokiSearch={pokiSearch}
-      />
+      <div>
+      </div >
+      <NavBar className="button" pokemons={pokemons} setPokiSearch={setPokiSearch}
+        pokiSearch={pokiSearch} onChangePage={setPage}/>
     </div>
   );
 }

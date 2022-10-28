@@ -10,15 +10,15 @@ function NavBar() {
   return (
     <div className="navBar">
       <nav>
-        <Link className="searchBar" to="/">
-          Poké
-        </Link>
-        <Link className="searchBar" to="/PokeTeam">
-          Poké Team
-        </Link>
-        <Link className="searchBar" to="/pokeDuel">
-          Poké Duel
-        </Link>
+        <div id="PokémonLink">
+        <button><Link className="" to="/">Pokémon</Link></button>
+        </div>
+        <div id="PokémonLink">
+        <button><Link className="" to="/PokeTeam">Poké Team</Link></button>
+        </div>
+        <div id="PokémonLink">
+        <button><Link className="" to="/pokeDuel">Poké Duel</Link></button>
+        </div>
       </nav>
     </div>
   );
